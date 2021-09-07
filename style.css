@@ -1,0 +1,28 @@
+body {
+	font-size: 18px;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#app {
+	display: flex;
+}
+
+#app .main-children {
+	margin: auto;
+	display: flex; 
+	gap: 1em;
+	align-items: center;
+}
+
+span.count-number {
+	padding: 6px;
+	border: 1px dashed grey;
+}
